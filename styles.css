@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 940px;
+    height: 940px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    /* width: calc(100%/16); */
+    box-sizing: border-box;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.changeColor{
+    background-color: red;
+}
